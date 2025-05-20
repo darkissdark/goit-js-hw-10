@@ -28,7 +28,7 @@ const options = {
     } else {
       iziToast.error({
         message: 'Please choose a date in the future',
-        position: 'center',
+        position: 'topRight',
       });
     }
   },
