@@ -20,9 +20,6 @@ const options = {
     const isValid = selectedDate > currentDate;
     button.disabled = !isValid;
 
-    console.log(selectedDate);
-    console.log(currentDate);
-
     if (isValid) {
       userSelectedDate = selectedDate.getTime();
     } else {
