@@ -30,3 +30,15 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+.flex {
+  display: flex;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.f-grow {
+  flex-grow: 1;
+}
